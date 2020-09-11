@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.nav-bar {
+    background: rgba(0,0,0,0.5);
+    height: 80px;
+}
+.logo {
+    margin: 10px 50px;
+    height: 70px;
+    
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px 5px; 
+
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+}
+.menu li a:hover{
+    background: white;
+    transition: 0.4s;
+    color: #000;
+
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left:60%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 5px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    display: flex;   
+   
+}
+.box .imgBx {
+
+width:  500px;
+flex:  .0 .0 .150px;
+
+    
+}
+
+.box .imgBx img {
+    max-width: 100%;
+
+
+}
+.box .content{
+margin-left: 10px;
+    padding: 20px;
+}
+.box .content h1{
+    margin: o;
+    padding-left: 0;
+    color: goldenrod;
+    font-size: 30px;
+
+}
+.box .content h2{
+    margin: o;
+    padding-left: 0;
+    color: pink;
+    font-size: 45px;
+
+}
+.box .content p {
+    margin: o;
+    padding: 10px 0 0;
+    text-align: center;
+    color:  blue;
+    font-size: 50px;
+}
+
+
+
+
+
+
+.btn {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+    border: #fff;
+
+}
+.btn1 {
+    background: #fff;
+    color: #000;
+
+}
+.btn2 {
+    color: black;
+}
+.btn2:hover {
+    background: #fff;
+   transition: .4s;
+   color: black;
+
+}
+footer {
+    background: darkblue;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

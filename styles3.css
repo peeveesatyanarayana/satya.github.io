@@ -1,0 +1,108 @@
+
+
+*
+{
+    
+    box-sizing: border-box;
+}
+
+
+.nav-bar {
+    background: rgba(0, 0, 0, 0.349);
+    height: 80px;
+}
+.logo {
+    margin: 10px 50px;
+    height: 60px;
+    
+}
+
+.menu {margin: 0;
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px 5px; 
+
+}
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+}
+.menu li a:hover{
+    background: #fff;
+    transition: 0.4s;
+    color: #000;
+
+}
+.menu li a:hover{
+    background: #fff;
+    transition: 0.4s;
+    color: #000;
+
+}
+header {
+    background: rgba(128, 128, 128, 0.192);
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    overflow: auto;
+}
+.gallery {
+    margin: 5px;
+    border: ipx solid black;
+   float: left;
+   width: 390px;
+  
+
+}
+.gallery iframe {
+    width: 100%;
+    height: auto;
+
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.imagegallery {
+
+    display: inline-block;
+
+    margin: 30px;
+    padding: 30px;
+    border: 2px solid white;
+
+}
+.booktext {
+    margin: 40px;
+    padding: 20px;
+    position: absolute;
+    font-size: 20px;
+    color: ivory;
+    background: blue;
+}
+.container  h1 {
+    
+    background-color: blueviolet;
+    color: white;
+    
+}
+footer {
+    padding: 10px;
+    background: darkblue;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
